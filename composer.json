@@ -1,0 +1,21 @@
+{
+    "name": "f4team-cn/oauth2-client",
+    "description": "F4Team OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "type": "library",
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "league/oauth2-client": "^2.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "League\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yingyya",
+            "email": "yyaiwy666@163.com"
+        }
+    ]
+}
