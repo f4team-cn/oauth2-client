@@ -65,6 +65,16 @@ class F4TeamResourceOwner implements ResourceOwnerInterface
         return $this->getValueByKey($this->response, 'data.phone');
     }
 
+	/**
+	 * Get resource owner site
+	 *
+	 * @return string|null
+	 */
+	public function getSite()
+	{
+		return $this->getValueByKey($this->response, 'data.site');
+	}
+
     /**
      * Return all of the owner details available as an array.
      *
