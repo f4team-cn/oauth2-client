@@ -75,6 +75,26 @@ class F4TeamResourceOwner implements ResourceOwnerInterface
 		return $this->getValueByKey($this->response, 'data.site');
 	}
 
+	/**
+	 * Get resource owner role
+	 *
+	 * @return string|null
+	 */
+	public function getRole()
+	{
+		return $this->getValueByKey($this->response, 'data.role');
+	}
+
+	/**
+	 * Get response
+	 *
+	 * @return array
+	 */
+	public function getResponse()
+	{
+		return $this->response;
+	}
+
     /**
      * Return all of the owner details available as an array.
      *
